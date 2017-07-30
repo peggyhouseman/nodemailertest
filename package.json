@@ -1,0 +1,22 @@
+{
+  "name": "nodemailer-example",
+  "version": "1.0.0",
+  "description": "testing emailing from node js with testing",
+  "main": "server.js",
+  "repository": "",
+  "author": "boo hoo",
+  "dependencies": {
+    "nodemailer": "latest",
+    "express": "latest"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "chai-http": "^3.0.0",
+    "mocha": "^3.4.2",
+    "mockery": "^2.1.0",
+    "nodemailer-mock": "^1.3.3"
+  },
+  "scripts": {
+    "test": "mocha"
+  }
+}
